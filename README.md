@@ -6,19 +6,19 @@
 
 ### to use
 ```
-QrcodeDescriptor.recognition("https://xxxxxxx").then((result) {
+QrcodeRecognition.recognition("https://xxxxxxx").then((result) {
     print("recognition: $result");
 });
 
-QrcodeDescriptor.recognition("file://xxxxxxx").then((result) {
+QrcodeRecognition.recognition("file://xxxxxxx").then((result) {
     print("recognition: $result");
 });
 
-QrcodeDescriptor.recognition("/xxx/xxx/xxx.png").then((result) {
+QrcodeRecognition.recognition("/xxx/xxx/xxx.png").then((result) {
     print("recognition: $result");
 });
 
-QrcodeDescriptor.recognition("base64 字符串").then((result) {
+QrcodeRecognition.recognition("base64 字符串").then((result) {
     print("recognition: $result");
 });
 ```
