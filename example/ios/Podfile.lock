@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - qrcode_recognition (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - qrcode_recognition (from `.symlinks/plugins/qrcode_recognition/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  qrcode_recognition:
+    :path: ".symlinks/plugins/qrcode_recognition/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 50d75fe2f02b26cc09d224853bb45737f8b3214a
+  qrcode_recognition: 53c184790308e13aaf5ec7247fe130187cc17937
+
+PODFILE CHECKSUM: aafe91acc616949ddb318b77800a7f51bffa2a4c
+
+COCOAPODS: 1.11.3
